@@ -1,0 +1,5 @@
+service: Payment Gateway
+type: EXTERNAL
+dependencies: []
+consumers:
+  - Payment Service

@@ -1,0 +1,8 @@
+service: Shipping Service
+type: API
+dependencies:
+  - Order Service
+  - Shipping Provider
+consumers:
+  - Customer Portal
+  - Delivery Service

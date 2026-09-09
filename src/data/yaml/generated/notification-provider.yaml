@@ -1,0 +1,5 @@
+service: Notification Provider
+type: EXTERNAL
+dependencies:
+consumers:
+  - Notification Service

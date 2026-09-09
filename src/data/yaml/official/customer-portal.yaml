@@ -1,0 +1,19 @@
+service: Customer Portal
+type: APPLICATION
+dependencies:
+  - Auth Service
+  - Customer Service
+  - Product Catalog Service
+  - Cart Service
+  - Order Service
+  - Invoice Service
+consumers:
+  - User Profile Service
+  - Search Service
+  - Recommendation Service
+  - Promotion Service
+  - Shipping Service
+  - Delivery Service
+  - Notification Service
+  - Review Service
+  - Support Service

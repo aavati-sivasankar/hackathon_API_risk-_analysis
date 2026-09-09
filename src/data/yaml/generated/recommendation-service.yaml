@@ -1,0 +1,8 @@
+service: Recommendation Service
+type: API
+dependencies:
+  - Search Service
+  - Product Catalog Service
+consumers:
+  - Customer Portal
+  - Mobile App

@@ -1,0 +1,5 @@
+service: Review DB
+type: DATABASE
+dependencies:
+consumers:
+  - Review Service

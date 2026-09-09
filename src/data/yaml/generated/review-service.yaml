@@ -1,0 +1,8 @@
+service: Review Service
+type: API
+dependencies:
+  - Product Catalog Service
+  - Review DB
+consumers:
+  - Customer Portal
+  - Mobile App

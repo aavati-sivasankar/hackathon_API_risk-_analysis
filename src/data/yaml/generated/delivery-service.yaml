@@ -1,0 +1,8 @@
+service: Delivery Service
+type: API
+dependencies:
+  - Shipping Service
+  - Warehouse Service
+consumers:
+  - Customer Portal
+  - Notification Service

@@ -1,0 +1,7 @@
+service: Admin Console
+type: APPLICATION
+dependencies:
+  - Auth Service
+  - Analytics Service
+  - Support Service
+consumers: []

@@ -1,0 +1,9 @@
+service: Mobile App
+type: APPLICATION
+dependencies:
+  - Auth Service
+  - User Profile Service
+  - Search Service
+  - Recommendation Service
+  - Review Service
+consumers: []

@@ -1,0 +1,9 @@
+service: User Profile Service
+type: API
+dependencies:
+  - Auth Service
+  - Customer DB
+consumers:
+  - Customer Portal
+  - Mobile App
+  - Recommendation Service

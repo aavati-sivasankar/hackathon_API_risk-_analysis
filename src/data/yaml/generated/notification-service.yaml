@@ -1,0 +1,8 @@
+service: Notification Service
+type: API
+dependencies:
+  - Notification Provider
+consumers:
+  - Customer Portal
+  - Order Service
+  - Delivery Service

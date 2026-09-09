@@ -1,0 +1,5 @@
+service: Shipping Provider
+type: EXTERNAL
+dependencies:
+consumers:
+  - Shipping Service

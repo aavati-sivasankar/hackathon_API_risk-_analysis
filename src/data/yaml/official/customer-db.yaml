@@ -1,0 +1,6 @@
+service: Customer DB
+type: DATABASE
+dependencies: []
+consumers:
+  - Customer Service
+  - User Profile Service

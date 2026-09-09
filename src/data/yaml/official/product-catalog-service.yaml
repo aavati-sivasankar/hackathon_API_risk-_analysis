@@ -1,0 +1,10 @@
+service: Product Catalog Service
+type: API
+dependencies: 
+  - Product DB
+consumers: 
+  - Customer Portal
+  - Pricing Service
+  - Inventory Service
+  
+  

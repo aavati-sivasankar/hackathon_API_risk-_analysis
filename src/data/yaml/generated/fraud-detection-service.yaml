@@ -1,0 +1,7 @@
+service: Fraud Detection Service
+type: API
+dependencies:
+  - Payment Service
+  - Customer Service
+consumers:
+  - Order Service

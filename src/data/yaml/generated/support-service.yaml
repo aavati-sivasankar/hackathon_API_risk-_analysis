@@ -1,0 +1,8 @@
+service: Support Service
+type: API
+dependencies:
+  - Customer Service
+  - Order Service
+consumers:
+  - Customer Portal
+  - Admin Console

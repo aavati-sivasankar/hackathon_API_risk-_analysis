@@ -1,0 +1,6 @@
+service: Product DB
+type: DATABASE
+dependencies: []
+consumers:
+  - Product Catalog Service
+  - Inventory Service

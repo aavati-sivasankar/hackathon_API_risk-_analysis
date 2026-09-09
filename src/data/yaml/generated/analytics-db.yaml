@@ -1,0 +1,5 @@
+service: Analytics DB
+type: DATABASE
+dependencies:
+consumers:
+  - Analytics Service

@@ -1,0 +1,7 @@
+service: Warehouse Service
+type: API
+dependencies:
+  - Inventory Service
+  - Warehouse DB
+consumers:
+  - Delivery Service

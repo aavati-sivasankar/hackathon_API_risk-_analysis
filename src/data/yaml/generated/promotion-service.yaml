@@ -1,0 +1,8 @@
+service: Promotion Service
+type: API
+dependencies:
+  - Product Catalog Service
+  - Pricing Service
+consumers:
+  - Cart Service
+  - Order Service
